@@ -137,8 +137,10 @@ const Features = () => {
         
         <div className="mt-16 text-center">
           <a 
-            href="#documentation" 
+            href="https://github.com/dustinwloring1988/vibe-cli" 
             className="inline-flex items-center text-primary hover:text-primary/80 transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Learn more about our features
             <ChevronRight className="w-4 h-4 ml-1" />
