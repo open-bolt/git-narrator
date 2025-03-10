@@ -119,7 +119,7 @@ const Features = () => {
             Streamline your Git workflow
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            GitNarrator combines the power of AI with Git to make your development process smoother and more efficient.
+            vibe-cli combines the power of AI with Git to make your development process smoother and more efficient.
           </p>
         </div>
         

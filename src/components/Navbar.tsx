@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="/" className="text-xl font-semibold flex items-center space-x-2">
           <span className="flex items-center gap-2 animate-slide-in [animation-delay:100ms]">
-            <span className="text-gradient">GitNarrator</span>
+            <span className="text-gradient">vibe-cli</span>
           </span>
         </a>
         

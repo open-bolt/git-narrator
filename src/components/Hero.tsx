@@ -25,7 +25,7 @@ const Hero = () => {
         )}
       >
         <span className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-primary/10 text-primary mb-6">
-          Introducing GitNarrator
+          Introducing vibe-cli
         </span>
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6">
           <span className="block">Transform your</span>
@@ -33,7 +33,7 @@ const Hero = () => {
           <span className="block">with natural language</span>
         </h1>
         <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto">
-          GitNarrator bridges the gap between natural language and code changes, automating your Git workflow with powerful AI assistance.
+          vibe-cli bridges the gap between natural language and code changes, automating your Git workflow with powerful AI assistance.
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -65,7 +65,7 @@ const Hero = () => {
             <div className="text-xs text-muted-foreground ml-2">~/projects/my-app</div>
           </div>
           <div className="bg-gray-950/90 text-gray-100 p-6 font-mono text-sm overflow-hidden">
-            <p className="mb-2 opacity-70">$ git-narrator "Update the README with installation instructions"</p>
+            <p className="mb-2 opacity-70">$ vibe-cli "Update the README with installation instructions"</p>
             <div className="animate-pulse-soft">
               <p className="text-blue-400">🤖 Analyzing repository structure...</p>
               <p className="text-green-400 mt-2">✓ Found README.md</p>
