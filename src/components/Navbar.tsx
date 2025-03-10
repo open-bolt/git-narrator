@@ -1,7 +1,6 @@
 
 import React, { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
-import AnimatedButton from "./AnimatedButton";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -55,12 +54,6 @@ const Navbar = () => {
               </a>
             ))}
           </div>
-          <AnimatedButton
-            variant="primary"
-            className="animate-scale-in [animation-delay:500ms]"
-          >
-            Get Started
-          </AnimatedButton>
         </div>
       </div>
     </nav>

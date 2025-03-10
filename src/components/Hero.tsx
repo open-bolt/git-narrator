@@ -40,14 +40,7 @@ const Hero = () => {
           <AnimatedButton 
             variant="primary" 
             size="lg"
-            className="min-w-[180px]"
-          >
-            Get Started
-          </AnimatedButton>
-          <AnimatedButton 
-            variant="secondary" 
-            size="lg"
-            className="min-w-[180px]"
+            className="min-w-[180px] bg-purple-600 hover:bg-purple-700"
             onClick={() => window.open("https://github.com/dustinwloring1988/vibe-cli", "_blank")}
           >
             View on GitHub
