@@ -17,6 +17,12 @@ const Navbar = () => {
     };
   }, []);
 
+  const navItems = [
+    { name: "Features", href: "#features" },
+    { name: "Documentation", href: "#documentation" },
+    { name: "GitHub", href: "https://github.com/dustinwloring1988/vibe-cli" }
+  ];
+
   return (
     <nav
       className={cn(
@@ -33,18 +39,19 @@ const Navbar = () => {
         
         <div className="hidden md:flex items-center space-x-8">
           <div className="flex space-x-6">
-            {["Features", "Documentation", "GitHub"].map((item, index) => (
+            {navItems.map((item, index) => (
               <a
-                key={item}
-                href={`#${item.toLowerCase()}`}
+                key={item.name}
+                href={item.href}
                 className={cn(
                   "text-sm font-medium relative transition-colors duration-300 ease-in-out",
                   "after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full",
                   "animate-slide-in"
                 )}
                 style={{ animationDelay: `${(index + 1) * 100 + 200}ms` }}
+                target={item.name === "GitHub" ? "_blank" : undefined}
               >
-                {item}
+                {item.name}
               </a>
             ))}
           </div>

@@ -48,6 +48,7 @@ const Hero = () => {
             variant="secondary" 
             size="lg"
             className="min-w-[180px]"
+            onClick={() => window.open("https://github.com/dustinwloring1988/vibe-cli", "_blank")}
           >
             View on GitHub
           </AnimatedButton>
